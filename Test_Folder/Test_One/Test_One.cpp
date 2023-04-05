@@ -60,7 +60,7 @@ int main(){
     cin>>a;
     int no = determine(a);
     int b = recurse(a,no);
-    cout<<a<<" "<<b<<endl;
+    //cout<<a<<" "<<b<<endl;
     if(compare(a,b)){
         cout<< a <<" is a palindrome";
     }
