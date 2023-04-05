@@ -3,7 +3,6 @@ using namespace std;
 
 //Palindrome test program v2.0
 
-
 bool isPalindrome(int x) { //complete the function 
     int val = x; 
     int remainder; 
@@ -25,7 +24,7 @@ int main() {
     if(isPalindrome(n)) { 
         cout <<n<<" is a palindrome"; } 
     else { 
-        cout << n<<" is NOT a palindrome"; 
+        cout << n<<" is not a palindrome"; 
     } 
     return 0;
 }
