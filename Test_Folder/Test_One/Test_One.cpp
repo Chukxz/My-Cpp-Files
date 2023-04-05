@@ -3,7 +3,6 @@ using namespace std;
 
 //Palindrome test program v1.0
 
-
 float powbase(int base, int power){
     if(power==0){
         return 1;
