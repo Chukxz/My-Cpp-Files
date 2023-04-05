@@ -34,14 +34,15 @@ int recurse(int a,int no){
     int res;
     int result;
     if(no == 0){
+        #cout<<a<<endl;
         return a;
     }
     else{
-        cout<<a<<endl;
+        #cout<<a<<endl;
         res=a%10;
         result = (a - res)/10;
         a = result;
-        cout<<" "<<res<<" "<<result<<" "<<no<<endl;
+        #cout<<" "<<res<<" "<<result<<" "<<no<<endl;
     return (res * powbase(10,no)) + recurse(a,no-1);
     }
 }
