@@ -65,7 +65,7 @@ int main(){
         cout<< a <<" is a palindrome";
     }
     else{
-        cout<< a << " is NOT a palindrome";
+        cout<< a << " is not a palindrome";
     }
 
     return 0;
