@@ -10,7 +10,6 @@ void MyClass::myPrint(){
 
 int main(){
     const double constant = 23.823;
- 
 
     MyClass my_obj;
     MyClass *ptr = &my_obj;
